@@ -33,9 +33,8 @@ Run the PSO optimization.ipynb, load scheduling case 1.ipynb and load scheduling
 
 Short-term-Global-Horizontal-Irradiance-Forecasting/ <br>
 ├── Datasets/                   # Folder for datasets <br>
-├── Weather Calssification/     # Folder containing scripts for data preprocessing and clustering <br>
-├── Simulation for/             # Folder containing scripts for model training and evaluation <br>
-├── Graphicall illustration     # Folder containing scripts for result visualization <br>
+├── Models/                     # Folder containing scripts for model training and evaluation <br>
+├── Load optimization             # Folder containing scripts for load scheduling with occupant count data <br>
 ├── README.md                   # Project README file <br>
 ## Reference
 Please cite this work as:
