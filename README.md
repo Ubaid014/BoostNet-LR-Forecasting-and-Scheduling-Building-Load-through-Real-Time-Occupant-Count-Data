@@ -3,7 +3,7 @@
 The smart buildings’ load forecasting is necessary for efficient energy management and it is easily possible because of the data availability based on widespread use of Internet of Things (IoT) devices and automation systems. The information of buildings’ occupancy is directly associated with energy consumption. Therefore, we present a hybrid model consisting of a Long Short-Term Memory (LSTM) network, Extreme Gradient Boosting (XgBoost), Random Forest (RF) and Linear Regression (LR) for commercial and academic buildings’ load forecasting. The correlation between occupants’ count and total load of the building is calculated using Pearson Correlation Coefficient (PCC). The comparative analysis of the proposed approach with LSTM, XgBoost, RF and Gated Recurrent Unit (GRU) is also performed. Root Mean Square Error (RMSE), Mean Absolute Error (MAE), Mean Square Error (MSE) and Normalized Root Mean Square Error (NRMSE) are used as performance indicators for evaluating performance. Findings indicate that the proposed hybrid approach outperforms other models. The RMSE and MAE of 2.99 and 2.18, respectively, are recorded by the proposed model for commercial building dataset while for academic building the RMSE and MAE are 4.48 and 2.85, respectively. Occupancy and load consumption have a positive correlation as evident from PCC analysis. Therefore, we have scheduled the forecasted load based on occupancy patterns for two different cases. Cost is reduced by 17.42% and 33.40% in case 1 and case 2, respectively. Moreover, the performance of the proposed hybrid approach is compared with different techniques presented in literature for buildings load forecasting.
 
 # Getting Started
-Follow the steps below to set up and run the code for short-term global horizontal irradiance forecasting.
+Follow the steps below to set up and run the code the project.
 
 ## Prerequisites
 Ensure you have the following software installed:<br>
@@ -22,12 +22,11 @@ Required libraries: <br>
 
 # Running the Code
 ## Step 1: Data Preprocessing
-Run k-mean_clustering.ipynb script to perform weather-based clustering.<br>
-Run splitting_the_clustering_data.ipynb script to separate respective clusters.<br>
+Run PCC.ipynb script to perform correlation analysis.<br>
 
 ## Step 2: Model Training and Evaluation
 
-Run the Bidirectional_LSTM.ipynb, GRU.ipynb, CatBoost.ipynb and adaboost.ipynb scripts from respective folders to train and evaluate the weather-classified CatBoost model against benchmark techniques.
+Run the BoostNet-LR.ipynb, GRU.ipynb, LSTM.ipynb, xgboost.ipynb and rf.ipynb scripts from Models folders to train and evaluate the proposed technique against benchmark techniques.
 
 ## Step 3: Visualization
 Run the bar_plot.ipynb, graph.ipynb and scatter_regression_plot.ipynb scripts to visualize the forecasting results and compare the model's performance.
