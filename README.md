@@ -29,8 +29,7 @@ Run PCC.ipynb script to perform correlation analysis.<br>
 Run the BoostNet-LR.ipynb, GRU.ipynb, LSTM.ipynb, xgboost.ipynb and rf.ipynb scripts from Models folders to train and evaluate the proposed technique against benchmark techniques.
 
 ## Step 3: Visualization
-Run the bar_plot.ipynb, graph.ipynb and scatter_regression_plot.ipynb scripts to visualize the forecasting results and compare the model's performance.
-
+Run the PSO optimization.ipynb, load scheduling case 1.ipynb and load scheduling case 2.ipynb scripts to for occupancy based load scheduling.
 
 Short-term-Global-Horizontal-Irradiance-Forecasting/ <br>
 ├── Datasets/                   # Folder for datasets <br>
